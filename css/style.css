@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto_Mono/RobotoMono-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("/fonts/Raleway/Raleway-Regular.ttf") format("truetype");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #f9f9f9;
+}
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1060px;
+    min-height: 100vh;
+    padding: 50px;
+    background-color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+li {
+    list-style-type: none;
+}
+.header-main-caption {
+    font-family: "Relawey", sans-serif;
+    font-size: 26px;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+}
+h1:hover {
+    transition-duration: .5s;
+    text-shadow: 0 -15px gold;
+}
+
+/* Top menu */
+.main-menu {
+    height: 40px;
+    background: linear-gradient(to bottom,  #727272 0%,#000000 100%);
+}
+.main-menu li {
+    float: left;
+}
+.main-menu a {
+    display: inline-block;
+    line-height: 40px;
+    padding: 0 25px;
+    font-family: "Relawey", sans-serif;
+    color: #fff;
+    border-right: 1px solid #000;
+}
+.main-menu a:hover {
+    display: inline-block;
+    color: #000;
+    background-color: gold;
+    transition-duration: .4s;
+}
+
+/* Боковое меню */
+.aside-menu {
+    float: left;
+    border-top: 1px solid rgb(180, 180, 180);
+    border-left: 1px solid rgb(180, 180, 180);
+    border-right: 1px solid rgb(180, 180, 180);
+}
+.aside-menu a {
+    display: block;
+    line-height: 40px;
+    min-width: 240px;
+    padding-left: 20px;
+    font-family: "Raleway", sans-serif;
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+.aside-menu a:hover {
+    font-weight: bold;
+    padding-left: 30px;
+    transition-duration: .2s;
+    background-color: rgb(248, 248, 251);
+}
+
+/* Основной контент */
+main {
+    margin: 40px 0;
+}
+.product-intro {
+    float: right;
+    width: 675px;
+}
+.intro-img {
+    height: 400px;
+    border: 1px solid rgb(180, 180, 180);
+    background-image: url('/img/rover.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* p Шрифт */
+.p-ff {
+     font-family: "Raleway", sans-serif;
+     letter-spacing: 1.5px;
+    padding: 20px;
+}
+
+.second-font {
+    letter-spacing: normal;
+    padding: 20px;
+}
+
+/* Футерчик */
+.footer-menu {
+    height: 40px;
+    background-color: #e1e1e1;
+}
+.footer-menu-list li{
+    float: left;
+    line-height: 40px;
+    padding: 0 30px;
+}
+.footer-menu-list a {
+    /* По разному задал размер шрифта тут и в копирайте */
+    font-size: smaller;
+    font-family: "Raleway", sans-serif;
+}
+.footer-menu-list a:hover {
+   text-decoration: underline;
+}
+.copyright {
+    float: right;
+    line-height: 40px;
+    font-size: 12px;
+    padding-right: 20px;
+}
