@@ -98,7 +98,7 @@ main {
 .intro-img {
     height: 400px;
     border: 1px solid rgb(180, 180, 180);
-    background-image: url('/img/rover.png');
+    background-image: url('img/rover.png');
     background-repeat: no-repeat;
     background-position: center center;
 }
